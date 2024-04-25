@@ -1,4 +1,4 @@
-import { HeroSection, Navbar, About } from "./../components/component";
+import { HeroSection, Navbar, About, Services, Footer } from "./../components/component";
 
 const Homepage = () => {
   return (
@@ -10,6 +10,8 @@ const Homepage = () => {
              
             <HeroSection/>
             <About />
+            <Services />
+            <Footer/>
             </div>
        
         </article>
